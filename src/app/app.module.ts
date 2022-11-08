@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { InscriptionCandidatComponent } from './inscription-candidat/inscription-candidat.component';
 import { ConnexionCandidatComponent } from './connexion-candidat/connexion-candidat.component';
 import { AProposComponent } from './a-propos/a-propos.component';
+import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.component';
+import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InscriptionCandidatComponent,
     ConnexionCandidatComponent,
-    AProposComponent
+    AProposComponent,
+    RecuperationMdpComponent,
+    CreationMdpComponent
   ],
   imports: [
     BrowserModule,

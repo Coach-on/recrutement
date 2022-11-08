@@ -1,0 +1,41 @@
+.parent{
+  width: 100%;
+  height: 100vh;
+  background-color: #072A3F;
+
+}
+nav{
+  background-color: #072A3F !important;
+  font-size: 25px;
+  justify-content: space-around;
+
+}
+.logo{
+  width: 200px;
+  height: 100px;
+}
+a{
+  color: white !important;
+}
+input{
+  width: 370px;
+  border-radius: 50px;
+}
+.mb-3{
+  text-align: center;
+}
+label{
+  color: white;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.end{
+  text-align: center;
+}
+.btn {
+  background: #07A838;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
