@@ -8,13 +8,16 @@ import { ConnexionCandidatComponent } from './connexion-candidat/connexion-candi
 import { AProposComponent } from './a-propos/a-propos.component';
 import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
-<<<<<<< HEAD
-import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-=======
 import { QuizComponent } from './quiz/quiz.component';
->>>>>>> d625e3496465ca437a2a1e12b6fd085ce6304de6
+import { Quiz4Component } from './quiz4/quiz4.component';
+import { Quiz5Component } from './quiz5/quiz5.component';
+import { Quiz6Component } from './quiz6/quiz6.component';
+import { PageDeChoixIComponent } from './page-de-choix-i/page-de-choix-i.component';
+import { PageDeChoixCComponent } from './page-de-choix-c/page-de-choix-c.component';
+import { AccueilCComponent } from './accueil-c/accueil-c.component';
+import { CandidatsFavorisRComponent } from './candidats-favoris-r/candidats-favoris-r.component';
+import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-entretien.component';
+import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
 
 @NgModule({
   declarations: [
@@ -24,16 +27,21 @@ import { QuizComponent } from './quiz/quiz.component';
     AProposComponent,
     RecuperationMdpComponent,
     CreationMdpComponent,
-<<<<<<< HEAD
-    ContactezNousComponent,
-=======
-    QuizComponent
->>>>>>> d625e3496465ca437a2a1e12b6fd085ce6304de6
+    QuizComponent,
+    Quiz4Component,
+    Quiz5Component,
+    Quiz6Component,
+    PageDeChoixIComponent,
+    PageDeChoixCComponent,
+    AccueilCComponent,
+    CandidatsFavorisRComponent,
+    ProgrammerEntretienComponent,
+    ProfilRecruteurComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
