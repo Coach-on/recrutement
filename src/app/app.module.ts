@@ -8,6 +8,9 @@ import { ConnexionCandidatComponent } from './connexion-candidat/connexion-candi
 import { AProposComponent } from './a-propos/a-propos.component';
 import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
+import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +19,13 @@ import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
     ConnexionCandidatComponent,
     AProposComponent,
     RecuperationMdpComponent,
-    CreationMdpComponent
+    CreationMdpComponent,
+    ContactezNousComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
