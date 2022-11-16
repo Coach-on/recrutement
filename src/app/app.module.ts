@@ -8,6 +8,7 @@ import { ConnexionCandidatComponent } from './connexion-candidat/connexion-candi
 import { AProposComponent } from './a-propos/a-propos.component';
 import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
     ConnexionCandidatComponent,
     AProposComponent,
     RecuperationMdpComponent,
-    CreationMdpComponent
+    CreationMdpComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
