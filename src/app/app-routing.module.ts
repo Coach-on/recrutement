@@ -13,6 +13,8 @@ import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.co
 import { PageDeChoixIComponent } from './page-de-choix-i/page-de-choix-i.component';
 import { PageDeChoixCComponent } from './page-de-choix-c/page-de-choix-c.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
+import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
+import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
 
 const routes: Routes = [
 
@@ -22,12 +24,16 @@ const routes: Routes = [
   {path: 'contactez-nous' , component: ContactezNousComponent},
   {path: 'connexion-candidat' , component: ConnexionCandidatComponent},
   {path: 'inscription-candidat' , component: InscriptionCandidatComponent},
+  {path: 'inscription-recruteur-e1' , component: InscriptionRecruteurE1Component},
   {path: 'recuperation-mdp' , component: RecuperationMdpComponent},
   {path: 'page-de-choix-i' , component: PageDeChoixIComponent},
   {path: 'page-de-choix-c' , component: PageDeChoixCComponent},
   {path: 'creation-mdp' , component: CreationMdpComponent},
   {path: 'recuperation-mdp' , component: RecuperationMdpComponent},
   {path: 'profil-candidat' , component: ProfilCandidatComponent},
+  {path: 'connexion-recruteur' , component: ConnexionRecruteurComponent},
+
+
 ];
 
 @NgModule({

@@ -21,6 +21,8 @@ import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-
 import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
 import { ProfilCandidatComponent } from './profil-candidat/profil-candidat.component';
 import { RouterModule } from '@angular/router';
+import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
+import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import { RouterModule } from '@angular/router';
     ProgrammerEntretienComponent,
     ProfilRecruteurComponent,
     ProfilCandidatComponent,
+    InscriptionRecruteurE1Component,
+    ConnexionRecruteurComponent,
 
   ],
   imports: [
