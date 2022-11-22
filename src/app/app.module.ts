@@ -25,6 +25,7 @@ import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/insc
 import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
 import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
 import { DescriptionOffreComponent } from './description-offre/description-offre.component';
+import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { DescriptionOffreComponent } from './description-offre/description-offre
     ConnexionRecruteurComponent,
     InscriptionRecruteurE2Component,
     DescriptionOffreComponent,
+    AbonnementE1Component,
 
   ],
   imports: [

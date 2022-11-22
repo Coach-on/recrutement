@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
 </head>
 <body>
   <div class="modal modal-sheet position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSheet">
@@ -22,24 +21,33 @@
           <div class="mb-3">
             <label  class="form-label">Nom de l'entreprise</label>
             <input type="email" class="form-control" ></div>
-            <p>Information sur l'entreprise</p>
-            <br>
-            <br>
+            <p class="t">Information sur l'entreprise</p>
+            <div class="mb-3" id="md">
+              <div>
+                <label  class="form-label">Pays</label> <br>
+                <input type="email" class="form-control">
+              </div>
+              &nbsp
+              <div>
+                <label  class="form-label">Ville</label><br>
+                <input type="email" class="form-control">
+              </div>
+            </div>
             <div class="mb-3">
-              <label  class="form-label">Email</label>
+              <label  class="form-label">Domaine d'activité</label>
               <input type="email" class="form-control">
             </div>
             <div class="mb-3">
-              <label  class="form-label">Mot de passe</label>
+              <label  class="form-label">Site internet de l'entreprise</label>
               <input type="email" class="form-control">
             </div>
             <div class="mb-3">
-              <label  class="form-label">Mot de passe</label>
+              <label  class="form-label">Lien linkedIn</label>
               <input type="email" class="form-control">
             </div>
         <div class="modal-footer flex-column border-top-0">
-          <button type="button" class="btn btn-lg btn-light w-50 mx-0" data-bs-dismiss="modal">Enregistrer</button>
-          <p> Déja un compte ? <span> <a routerLink='/connexion-candidat'>connectez vous !</a> </span></p>
+          <button type="button" class="btn btn-lg btn-light w-50 mx-0" data-bs-dismiss="modal">Validez</button>
+          <p> Déja un compte ? <span> <a routerLink='/connexion-recruteur'>connectez vous !</a> </span></p>
         </div>
       </div>
       </div>

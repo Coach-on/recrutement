@@ -4,18 +4,26 @@ body{
   height: 100vh;
 }
 .modal-header{
-  background-color: rgb(255, 255, 255, 80%) !important;
+  background-color:  #072A3F !important;
   color: white !important;
   border-radius: 15px 16px 0px 0px;
+}
+.t{
+  text-align: center;
 }
 h1{
   margin-left: 15%;
 }
 .modal-sheet{
-  background-color:#072A3F !important;
+  background-color:rgb(181,181,181) !important;
 }
 .modal-dialog{
   border-radius: 15px 16px 0px 0px;
+  margin-top: 0;
+
+}
+#md{
+  display: flex;
 }
 .modal-content
 {

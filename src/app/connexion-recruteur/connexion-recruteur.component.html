@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
       <div class="modal-content rounded-4 shadow">
         <div class="modal-header border-bottom-0">
           <h1 class="modal-title fs-5">CONNEXION</h1>
+          <i class="bi bi-arrow-left"></i>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" routerLink='/page-de-choix-c'></button>
         </div>
         <div class="modal-body py-5">
@@ -22,9 +23,10 @@
           <div class="mb-3">
             <label  class="form-label">Mot de passe</label>
             <input type="email" class="form-control" ></div>
+            <p><a  routerLink='/recuperation-mdp'class="ff">Mot de passe oublié ?</a></p>
         <div class="modal-footer flex-column border-top-0">
-          <button type="button" class="btn btn-lg btn-light w-50 mx-0" data-bs-dismiss="modal">Enregistrer</button>
-          <p> Pas de compte ? <span> <a routerLink='/inscription-recruteur'>Inscrivez-vous!</a> </span></p>
+          <button type="button" class="btn btn-lg btn-light w-50 mx-0" id="ss">Se connecter</button>
+          <p> Pas de compte ? <span> <a routerLink='/inscription-recruteur-e1' class="ff">Inscrivez-vous!</a> </span></p>
         </div>
       </div>
       </div>
