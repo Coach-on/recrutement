@@ -14,6 +14,7 @@ import { PageDeChoixIComponent } from './page-de-choix-i/page-de-choix-i.compone
 import { PageDeChoixCComponent } from './page-de-choix-c/page-de-choix-c.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
 import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
+import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
 import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
 
 const routes: Routes = [
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path: 'recuperation-mdp' , component: RecuperationMdpComponent},
   {path: 'profil-candidat' , component: ProfilCandidatComponent},
   {path: 'connexion-recruteur' , component: ConnexionRecruteurComponent},
+  {path: 'inscription-recruteur-e2' , component: InscriptionRecruteurE2Component},
 
 
 ];

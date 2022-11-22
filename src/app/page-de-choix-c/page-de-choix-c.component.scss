@@ -23,7 +23,6 @@ button{
   background-color: #072A3F !important;
   border: none;
 }
-
 body{
   width: 100%;
   min-height: 100vh;
@@ -45,7 +44,7 @@ body{
 }
 a{
  text-decoration: none;
-  color: white;
+  color: white !important;
 }
 a:hover
 {

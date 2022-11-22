@@ -23,6 +23,8 @@ import { ProfilCandidatComponent } from './profil-candidat/profil-candidat.compo
 import { RouterModule } from '@angular/router';
 import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
 import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
+import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
+import { DescriptionOffreComponent } from './description-offre/description-offre.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-rec
     ProfilCandidatComponent,
     InscriptionRecruteurE1Component,
     ConnexionRecruteurComponent,
+    InscriptionRecruteurE2Component,
+    DescriptionOffreComponent,
 
   ],
   imports: [
