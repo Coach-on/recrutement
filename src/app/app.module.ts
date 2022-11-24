@@ -26,6 +26,7 @@ import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-rec
 import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
 import { DescriptionOffreComponent } from './description-offre/description-offre.component';
 import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
+import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
     InscriptionRecruteurE2Component,
     DescriptionOffreComponent,
     AbonnementE1Component,
+    AbonnementE2Component,
 
   ],
   imports: [
