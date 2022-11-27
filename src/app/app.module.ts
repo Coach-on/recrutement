@@ -18,6 +18,7 @@ import { AccueilCComponent } from './accueil-c/accueil-c.component';
 import { CandidatsFavorisRComponent } from './candidats-favoris-r/candidats-favoris-r.component';
 import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-entretien.component';
 import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
+import { OffreRecentComponent } from './offre-recent/offre-recent.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.co
     AccueilCComponent,
     CandidatsFavorisRComponent,
     ProgrammerEntretienComponent,
-    ProfilRecruteurComponent
+    ProfilRecruteurComponent,
+    OffreRecentComponent
   ],
   imports: [
     BrowserModule,
