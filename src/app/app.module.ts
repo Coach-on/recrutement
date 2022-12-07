@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InscriptionCandidatComponent } from './inscription-candidat/inscription-candidat.component';
 import { ConnexionCandidatComponent } from './connexion-candidat/connexion-candidat.component';
+import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
 import { AProposComponent } from './a-propos/a-propos.component';
 import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.component';
 import { CreationMdpComponent } from './creation-mdp/creation-mdp.component';
@@ -18,16 +19,28 @@ import { AccueilCComponent } from './accueil-c/accueil-c.component';
 import { CandidatsFavorisRComponent } from './candidats-favoris-r/candidats-favoris-r.component';
 import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-entretien.component';
 import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
+<<<<<<< HEAD
 import { OffreRecentComponent } from './offre-recent/offre-recent.component';
 import { ToutesLesOffresComponent } from './toutes-les-offres/toutes-les-offres.component';
 import { ProgressionComponent } from './progression/progression.component';
 import { TdbRecruteurComponent } from './tdb-recruteur/tdb-recruteur.component';
+=======
+import { ProfilCandidatComponent } from './profil-candidat/profil-candidat.component';
+import { RouterModule } from '@angular/router';
+import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
+import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
+import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
+import { DescriptionOffreComponent } from './description-offre/description-offre.component';
+import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
+import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
+>>>>>>> be1efc35c5915d7898e376a94c585dac873b9201
 
 @NgModule({
   declarations: [
     AppComponent,
     InscriptionCandidatComponent,
     ConnexionCandidatComponent,
+    ContactezNousComponent,
     AProposComponent,
     RecuperationMdpComponent,
     CreationMdpComponent,
@@ -35,21 +48,32 @@ import { TdbRecruteurComponent } from './tdb-recruteur/tdb-recruteur.component';
     Quiz4Component,
     Quiz5Component,
     Quiz6Component,
-    PageDeChoixIComponent,
-    PageDeChoixCComponent,
     AccueilCComponent,
     CandidatsFavorisRComponent,
+    PageDeChoixIComponent,
+    PageDeChoixCComponent,
     ProgrammerEntretienComponent,
     ProfilRecruteurComponent,
+<<<<<<< HEAD
     OffreRecentComponent,
     ToutesLesOffresComponent,
     ProgressionComponent,
     TdbRecruteurComponent
+=======
+    ProfilCandidatComponent,
+    InscriptionRecruteurE1Component,
+    ConnexionRecruteurComponent,
+    InscriptionRecruteurE2Component,
+    DescriptionOffreComponent,
+    AbonnementE1Component,
+    AbonnementE2Component,
+
+>>>>>>> be1efc35c5915d7898e376a94c585dac873b9201
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

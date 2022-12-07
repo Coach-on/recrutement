@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(96, 96, 96, 30%) !important;
+  width: 100%;
+  height: 100vh;
+}
+.modal-header{
+  background-color:#072A3F !important;
+  color: white !important;
+  border-radius: 15px 16px 0px 0px;
+
+}
+h1{
+  margin-left: 15%;
+}
+.modal-sheet{
+  background-color:rgb(181,181,181) !important;
+}
+.modal-dialog{
+  border-radius: 15px 16px 0px 0px;
+}
+.modal-content
+{
+  background-color:  #072A3F !important;
+}
+.btn-light{
+  background-color: rgb(255, 255, 255, 80%) !important;
+  color: #072A3F !important;
+}
+.modal-title{
+  text-align: center;
+  margin-left: 170px;
+}
+.form-label{
+  color: white;
+}
+p{
+  color: white;
+}

@@ -1,25 +1,25 @@
 <header>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <img src="../assets/images/coachon.png" alt="" width="10%">
+      <img src="../assets/images/coachon.png" width="10%" >
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="text-white nav-link">Accueil</a></li>
-        <li class="nav-item"><a href="#" class="text-white nav-link">A propos</a></li>
-        <li class="nav-item"><a href="#" class="text-white nav-link">Contact</a></li>
-        <li class="nav-item"><a href="#" class="text-white nav-link">Connexion</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='/accueil-c'>ACCUEIL</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='/a-propos'>A PROPOS</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='/contactez-nous'>CONTACT</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='/page-de-choix-c'>CONNEXION</a></li>
       </ul>
     </div>
   </nav>
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../assets/images/pageaccueil.png" class="d-block w-100" alt="page">
-          <button type="button" class="position-absolute bottom-0 end-50 btn btn-primary">Inscription</button>
+        <div class="carousel-item ">
+          <img src="../assets/images/pageaccueil.png" class="d-block w-100" alt="page" i>
+          <button type="button" id="btn" class="position-absolute bottom-0 end-50 btn btn-primary" routerLink='/page-de-choix-i'> Inscription</button>
             <div>
-              <p class="position-absolute top-50 start-0 translate-middle-y">
+              <p class="position-absolute top-50 start-0 translate-middle-y" id="txt">
                 IDENTIFIEZ LES MEILLEURS CANDIDATS <br>
                 ET RENDEZ VOS DECISIONS D'EMBAUCHE PLUS RAPIDES, <br>
                 PLUS FACILES ET <br>
@@ -27,11 +27,11 @@
               </p>
             </div>
         </div>
-        <div class="carousel-item">
-          <img src="../assets/images/pageaccueil.png" class="d-block w-100" alt="page">
-          <button type="button" class="position-absolute bottom-0 end-50 btn btn-primary">Inscription</button>
+        <div class="carousel-item active">
+          <img src="../assets/images/pageaccueil.png" class="d-block w-100" alt="page" id="img">
+          <button type="button" id="btn" class="position-absolute bottom-0 end-50 btn btn-primary" routerLink='/page-de-choix-i'>Inscription</button>
             <div>
-              <p class="position-absolute top-50 start-0 translate-middle-y">
+              <p class="position-absolute top-50 start-0 translate-middle-y" id="txt">
                 ASSUREZ-VOUS D’UNE REPONSE DES <br> RECRUTEURS ET RENFORCEZ VOS <br> COMPETENCES
               </p>
             </div>
@@ -47,6 +47,4 @@
       </button>
     </div>
 </header>
-<main>
 
-</main>
