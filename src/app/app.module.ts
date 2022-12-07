@@ -19,6 +19,9 @@ import { CandidatsFavorisRComponent } from './candidats-favoris-r/candidats-favo
 import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-entretien.component';
 import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
 import { OffreRecentComponent } from './offre-recent/offre-recent.component';
+import { ToutesLesOffresComponent } from './toutes-les-offres/toutes-les-offres.component';
+import { ProgressionComponent } from './progression/progression.component';
+import { TdbRecruteurComponent } from './tdb-recruteur/tdb-recruteur.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { OffreRecentComponent } from './offre-recent/offre-recent.component';
     CandidatsFavorisRComponent,
     ProgrammerEntretienComponent,
     ProfilRecruteurComponent,
-    OffreRecentComponent
+    OffreRecentComponent,
+    ToutesLesOffresComponent,
+    ProgressionComponent,
+    TdbRecruteurComponent
   ],
   imports: [
     BrowserModule,
