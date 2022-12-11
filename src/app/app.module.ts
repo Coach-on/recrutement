@@ -19,6 +19,12 @@ import { AccueilCComponent } from './accueil-c/accueil-c.component';
 import { CandidatsFavorisRComponent } from './candidats-favoris-r/candidats-favoris-r.component';
 import { ProgrammerEntretienComponent } from './programmer-entretien/programmer-entretien.component';
 import { ProfilRecruteurComponent } from './profil-recruteur/profil-recruteur.component';
+<<<<<<< HEAD
+import { OffreRecentComponent } from './offre-recent/offre-recent.component';
+import { ToutesLesOffresComponent } from './toutes-les-offres/toutes-les-offres.component';
+import { ProgressionComponent } from './progression/progression.component';
+import { TdbRecruteurComponent } from './tdb-recruteur/tdb-recruteur.component';
+=======
 import { ProfilCandidatComponent } from './profil-candidat/profil-candidat.component';
 import { RouterModule } from '@angular/router';
 import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/inscription-recruteur-e1.component';
@@ -27,6 +33,7 @@ import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/insc
 import { DescriptionOffreComponent } from './description-offre/description-offre.component';
 import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
 import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
+>>>>>>> be1efc35c5915d7898e376a94c585dac873b9201
 
 @NgModule({
   declarations: [
@@ -47,6 +54,12 @@ import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
     PageDeChoixCComponent,
     ProgrammerEntretienComponent,
     ProfilRecruteurComponent,
+<<<<<<< HEAD
+    OffreRecentComponent,
+    ToutesLesOffresComponent,
+    ProgressionComponent,
+    TdbRecruteurComponent
+=======
     ProfilCandidatComponent,
     InscriptionRecruteurE1Component,
     ConnexionRecruteurComponent,
@@ -55,6 +68,7 @@ import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
     AbonnementE1Component,
     AbonnementE2Component,
 
+>>>>>>> be1efc35c5915d7898e376a94c585dac873b9201
   ],
   imports: [
     BrowserModule,

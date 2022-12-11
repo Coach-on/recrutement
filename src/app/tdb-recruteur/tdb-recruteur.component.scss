@@ -21,7 +21,8 @@ h1{
   text-align: center;
 }
 .btn-secondary{
-  background-color: #072A3F !important;
+  background-color: #07A838 !important;
+  color: black;
   border: none;
   margin-left: 85%;
   margin-top: 11%;
@@ -47,7 +48,20 @@ h1{
 .surname{
   color: white;
 }
-.list-group-item{
-  background-color: #6060604d;
-}
 
+.body1{
+  background-color: white;
+}
+.p-5{
+  margin-top: 7%;
+}
+.card-body{
+  width: 100%;
+  height: 200px;
+  color: #02AC31;
+  background-color: #072A3F;
+  // background-color: #02AC31;
+}
+.card-title{
+  
+}

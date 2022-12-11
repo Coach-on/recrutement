@@ -21,7 +21,8 @@ h1{
   text-align: center;
 }
 .btn-secondary{
-  background-color: #072A3F !important;
+  background-color: #07A838 !important;
+  color: black;
   border: none;
   margin-left: 85%;
   margin-top: 11%;
@@ -50,4 +51,11 @@ h1{
 .list-group-item{
   background-color: #6060604d;
 }
-
+.list-group{
+  background-color: #6060604d;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-left: 350px;
+}
