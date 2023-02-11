@@ -17,6 +17,7 @@ import { InscriptionRecruteurE1Component } from './inscription-recruteur-e1/insc
 import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/inscription-recruteur-e2.component';
 import { ConnexionRecruteurComponent } from './connexion-recruteur/connexion-recruteur.component';
 import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
+import { TdbRecruteurComponent } from './tdb-recruteur/tdb-recruteur.component';
 
 const routes: Routes = [
 
@@ -36,6 +37,7 @@ const routes: Routes = [
   {path: 'connexion-recruteur' , component: ConnexionRecruteurComponent},
   {path: 'inscription-recruteur-e2' , component: InscriptionRecruteurE2Component},
   {path: 'abonnement-e2' , component: AbonnementE2Component},
+  {path: 'tdb-recruteur' , component: TdbRecruteurComponent}
 
 ];
 
