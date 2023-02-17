@@ -31,6 +31,7 @@ import { InscriptionRecruteurE2Component } from './inscription-recruteur-e2/insc
 import { DescriptionOffreComponent } from './description-offre/description-offre.component';
 import { AbonnementE1Component } from './abonnement-e1/abonnement-e1.component';
 import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
+import { TdbCandidatComponent } from './tdb-candidat/tdb-candidat.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { AbonnementE2Component } from './abonnement-e2/abonnement-e2.component';
     DescriptionOffreComponent,
     AbonnementE1Component,
     AbonnementE2Component,
+    TdbCandidatComponent,
 
   ],
   imports: [
